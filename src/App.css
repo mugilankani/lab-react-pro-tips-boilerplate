@@ -1,0 +1,67 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0/ 2rem; */
+    background-color: black;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+}
+body{
+    font-size: 1.3rem;
+
+}
+.textDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+    color: white;
+}
+.background{
+    padding: 0 2rem;
+}
+.formdiv{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 20vw;
+    text-align: center;
+    align-content: center;
+
+    background-color: aliceblue;
+}
+.registerButton{
+    height:3rem;
+    width: 100%;
+    font-size: 1.4rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(214, 63, 63);
+}
+p{
+    color: red;
+}
+.successMessage {
+    background-color: #2ecc71; 
+    color: #fff; 
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+input{
+    margin-bottom: 2rem ;
+    height:3rem;
+    width: 100%;
+    font-size: 1.4rem;
+    padding-left: 01rem;
+    
+}
+.formFlex{
+    display: flex;
+    background-color: #333;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
